@@ -39,7 +39,10 @@ const LoginScreen = ({ navigation }: { navigation: any }) => {
                         }}
                     />
                 </View>
-                <TouchableOpacity style={styles.formButton}  onPress={()=>router.push('../../Home')}>
+                <TouchableOpacity
+                    style={styles.formButton}
+                    onPress={() => navigation.navigate('home')}
+                >
                     <Text style={styles.formButtonText}>SIGN IN</Text>
                 </TouchableOpacity>
 
