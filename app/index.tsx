@@ -26,6 +26,7 @@ const stack = createNativeStackNavigator()
 export default function index() {
     return (
         <NavigationContainer independent={true}>
+            <NotificationHandler />
             <AudioProvider>
             <stack.Navigator initialRouteName="Loding-Page">
                 <stack.Screen name='Loding-page' component={LodingPage}   options={{

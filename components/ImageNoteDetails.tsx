@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
         right: 0,
         left: 0,
         top: 200,
-        // backgroundColor: Colors.pastelBackgrounds.pastelWhite,
+        backgroundColor: Colors.pastelBackgrounds.pastelWhite,
         borderTopRightRadius: 20,
         borderTopLeftRadius: 20,
         zIndex: 2000,
@@ -219,7 +219,7 @@ const styles = StyleSheet.create({
         left: 0,
         right: 0,
         height: 48,
-        // backgroundColor: Colors.pastelBackgrounds.pastelPurple,
+        backgroundColor: Colors.pastelBackgrounds.pastelPurple,
         shadowColor: '#000',
         flexDirection: 'row',
         justifyContent: 'space-around',
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
         right: 5,
         justifyContent: 'space-evenly',
         borderRadius: 20,
-        // borderColor:Colors.pastelBackgrounds.pastelGreen,
+        borderColor:Colors.pastelBackgrounds.pastelGreen,
 
     },
 });
